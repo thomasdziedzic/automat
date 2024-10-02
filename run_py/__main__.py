@@ -20,7 +20,7 @@ if args.verbose:
         print('  Outputs: ', step.outputs)
 
 if __name__ == '__main__':
-    debian_deps.check_and_install()
+    # debian_deps.check_and_install()
     
     if args.fresh:
         print('Cleaning old build results:')

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.2/.schema/devbox.schema.json",
+  "packages": [
+    "clang@latest",
+    "openssl@latest",
+    "zlib@latest",
+    "inotify-tools@latest",
+    "gmock@latest",
+    "cmake@latest",
+    "python@3.10",
+    "meson@latest",
+    "pkgconfig@latest",
+    "dbus@latest"
+  ],
+  "env": {
+    "CC":  "clang",
+    "CXX": "clang++"
+  },
+  "shell": {
+    "init_hook": [
+      "echo 'Welcome to devbox!' > /dev/null"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}
