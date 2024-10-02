@@ -10,7 +10,8 @@
     "python@3.10",
     "meson@latest",
     "pkgconfig@latest",
-    "dbus@latest"
+    "dbus@latest",
+    "gnumake@latest"
   ],
   "env": {
     "CC":  "clang",
